@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  color: #243b55;
+  /* color: blue; */
+  /* border: 1px solid black; */
+}
+
+body {
+  flex-direction: column;
+}
+.border {
+  border-radius: 12px;
+  padding: 7px;
+}
+
+.btn {
+  background-color: #dfe1e5;
+  transition-duration: 0.2s;
+  border: hidden;
+  /* border: transparent; */
+}
+
+.btn:hover {
+  background-color: #243b55;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 0 2px black;
+  /* border: 0.01px solid black; */
+}
+
+.flex {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.view {
+  width: 100%;
+  height: 100vh;
+  /* padding: 20vh; */
+  /* margin: 50px; */
+  /* padding: 50px; */
+}
+
+#landing-section {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #141e30,
+    #141e30,
+    #243b55,
+    #4ca1af,
+    #c4e0e5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #141e30,
+    #141e30,
+    #243b55,
+    #4ca1af,
+    #c4e0e5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#introduction-wrapper {
+  width: 50%;
+  /* height: 200px; */
+  /* margin-top: 200px; */
+  padding-top: 200px;
+  /* padding:  */
+  /* position: center; */
+  /* height: 100vh; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+#card-wrapper {
+  background-color: #ffffff;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: space-around;
+  width: 33%;
+  height: 170px;
+  padding: 10px;
+  /* box-shadow: 5px 5px 10px gray; */
+  transition-duration: 0.2s;
+  z-index: 1;
+}
+
+#card-wrapper:hover {
+  box-shadow: 10px 10px 10px black;
+  transform: scale(1.01);
+}
+
+#links-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  /* z-index: 10; */
+  /* flex-direction: colum; */
+}
+
+#rocket-wrapper {
+  width: 50%;
+  align-items: center;
+  /* z-index: 3; */
+}
+
+@keyframes space-travel {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(50px, -100px);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  75% {
+    transform: translate(50px, 100px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes moon-travel {
+  0% {
+    /* transform: translate(1px, 1px); */
+    transform: translate(100vw, 10vh);
+  }
+  100% {
+    transform: translate(32vw, 10vh);
+  }
+}
+
+@keyframes earth-travel {
+  0% {
+    /* transform: translate(1px, 1px); */
+    transform: translate(100vw, 30vh);
+  }
+  100% {
+    transform: translate(32vw, 30vh);
+  }
+}
+
+@keyframes star1-travel {
+  0% {
+    /* transform: translate(1px, 1px); */
+    transform: translate(100vw, 80vh);
+  }
+  100% {
+    transform: translate(32vw, 60vh);
+  }
+}
+@keyframes star2-travel {
+  0% {
+    /* transform: translate(1px, 1px); */
+    transform: translate(100vw, 50vh);
+  }
+  100% {
+    transform: translate(32vw, 60vh);
+  }
+}
+@keyframes star3-travel {
+  0% {
+    /* transform: translate(1px, 1px); */
+    transform: translate(100vw, 35vh);
+  }
+  100% {
+    transform: translate(32vw, 95vh);
+  }
+}
+
+@keyframes meteor-travel {
+  0% {
+    /* transform: translate(1px, 1px); */
+    transform: translate(100vw, 10vh);
+  }
+  100% {
+    transform: translate(32vw, 77vh);
+  }
+}
+@keyframes alien-travel {
+  0% {
+    /* transform: translate(1px, 1px); */
+    transform: translate(100vw, 55vh);
+  }
+  100% {
+    transform: translate(32vw, 25vh);
+  }
+}
+
+.space-obj {
+  position: absolute;
+  height: auto;
+  width: 30px;
+  /* box-shadow: 5px 5px 10px gray; */
+  /* z-index: -10; */
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+#rocket {
+  position: absolute;
+  z-index: 10;
+  height: auto;
+  width: 230px;
+  /* transition-duration: 2s; */
+  /* transform: translate(50px, -100px); */
+  animation: 30s linear 0s infinite normal space-travel;
+  /* animation-duration: 2s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate; */
+}
+
+#earth {
+  height: auto;
+  width: 40px;
+  animation: 200s linear 0s infinite normal earth-travel;
+}
+
+#meteor {
+  height: auto;
+  width: 30px;
+  transform: rotate(50deg);
+  animation: 60s linear 0s infinite normal meteor-travel;
+}
+
+#moon {
+  animation: 190s linear 0s infinite normal moon-travel;
+}
+
+#star1 {
+  animation: 85s linear 0s infinite normal star1-travel;
+}
+
+#star2 {
+  animation: 95s linear 0s infinite normal star2-travel;
+}
+
+#star3 {
+  animation: 160s linear 0s infinite normal star3-travel;
+}
+
+#alien {
+  animation: 130s linear 0s infinite normal alien-travel;
+}
+
+/* #star { */
+/* position: absolute; */
+/* z-index: -1; */
+/* } */
