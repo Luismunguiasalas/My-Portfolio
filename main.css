@@ -194,6 +194,14 @@ h2 {
     transform: translate(2vw, 40vh);
   }
 }
+@keyframes tree-travel2 {
+  0% {
+    transform: translate(38vw, -25vh);
+  }
+  100% {
+    transform: translate(2vw, -10vh);
+  }
+}
 
 @keyframes neurons-travel {
   0% {
@@ -217,7 +225,7 @@ h2 {
     transform: translate(38vw, 0vh);
   }
   100% {
-    transform: translate(2vw, -15vh);
+    transform: translate(2vw, -20vh);
   }
 }
 
@@ -238,6 +246,9 @@ h2 {
 }
 #tree {
   animation: 50s linear 0s infinite normal tree-travel;
+}
+#tree2 {
+  animation: 60s linear 0s infinite normal tree-travel2;
 }
 #neurons {
   animation: 100s linear 0s infinite normal neurons-travel;
@@ -269,7 +280,7 @@ h2 {
 }
 
 #about-me-wrapper {
-  width: 85%;
+  width: 87%;
   justify-content: space-around;
   /* justify-content: space-between; */
   align-items: center;
@@ -291,7 +302,7 @@ h2 {
 }
 
 #img-buttons {
-  width: 17%;
+  width: 23%;
   justify-content: space-around;
   transition-duration: 0.2s;
 }
@@ -414,8 +425,8 @@ h4 {
 }
 
 .tools-card img {
-  height: 90px;
-  width: 90px;
+  height: 60px;
+  width: 60px;
   margin: auto;
 }
 
@@ -427,13 +438,13 @@ h4 {
 }
 
 .education-card img {
-  height: 90px;
-  width: 90px;
+  height: 80px;
+  width: 80px;
   /* border-radius: 40px; */
   /* width: auto; */
 }
 #education {
-  width: 40%;
+  width: 35%;
   height: 100%;
   justify-content: space-around;
   align-items: left;
@@ -459,3 +470,7 @@ h4 {
   justify-content: space-around;
   align-items: center;
 }
+
+/* .education-wrapper div img:hover { */
+/* transform: scale(2.01); */
+/* } */
