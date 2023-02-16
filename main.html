@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,19 +8,26 @@
     <title>Document</title>
   </head>
   <body class="flex">
-    <div class="flex view" id="landing-section">
+    <!-- Start landing section -->
+    <div class="flex view">
       <div class="flex" id="introduction-wrapper">
         <div class="flex border" id="card-wrapper">
           <h1>Hi, I'm Luis</h1>
-          <p>Click to learn more about me & my projects</p>
-          <!-- <div>Hi, I' Luis</div> -->
-          <!-- <div>View about me & projects below</div> -->
-          <div class="flex" id="links-wrapper">
-            <button class="btn border">About me</button>
-            <button class="btn border">Projects</button>
+          <p>Thanks for visiting my portfolio</p>
+          <p>Click the links below to learn more about me & my projects</p>
+          <div class="flex links-wrapper">
+            <a href="#a">
+              <button class="btn border">About me</button>
+            </a>
+            <a href="#pp">
+              <button class="btn border">Projects</button>
+            </a>
+            <a href="#e">
+              <button class="btn border">Education</button>
+            </a>
             <a href="https://github.com/Luismunguiasalas" target="_blank">
               <img
-                class="links-style"
+                class=""
                 src="resources/images/iconmonstr-github-3.svg"
                 alt=""
               />
@@ -32,14 +37,14 @@
               target="_blank"
             >
               <img
-                class="links-style"
+                class=""
                 src="resources/images/iconmonstr-linkedin-3.svg"
                 alt=""
               />
             </a>
             <a href="mailto:munguiasalasl@gmail.com">
               <img
-                class="links-style"
+                class=""
                 src="resources/images/email.png"
                 alt=""
                 style="width: 28px; height: 28px"
@@ -49,58 +54,188 @@
         </div>
       </div>
 
-      <div class="flex" id="rocket-wrapper">
+      <div class="flex" id="backgrd-obj-wrapper">
         <img
-          class="space-obj"
-          id="rocket"
-          src="resources/images/Method Draw Image.svg"
+          id="array"
+          class="backgrd-obj"
+          src="resources/images/Array.svg"
+          alt=""
+        />
+        <img
+          id="tree"
+          class="backgrd-obj"
+          src="resources/images/tree.svg"
+          alt=""
+        />
+        <img
+          id="stack"
+          class="backgrd-obj"
+          src="resources/images/Stack.svg"
+          alt=""
+        />
+        <img
+          id="neurons"
+          class="backgrd-obj"
+          src="resources/images/Neural-Network.svg"
+          alt=""
+        />
+        <img
+          id="matrix"
+          class="backgrd-obj"
+          src="resources/images/Matrix.svg"
+          alt=""
+        />
+        <img
+          id="linked-list"
+          class="backgrd-obj"
+          src="resources/images/linked-list.svg"
+          alt=""
+        />
+        <img
+          id="graph"
+          class="backgrd-obj"
+          src="resources/images/Graph.svg"
+          alt=""
+        />
+        <img
+          id="data"
+          class="backgrd-obj"
+          src="resources/images/Data.svg"
           alt=""
         />
       </div>
-      <img
-        class="space-obj"
-        id="star1"
-        src="resources/images/iconmonstr-star-5.svg"
-        alt=""
-      />
-      <img
-        class="space-obj"
-        id="star2"
-        src="resources/images/iconmonstr-star-5.svg"
-        alt=""
-      />
-      <img
-        class="space-obj"
-        id="star3"
-        src="resources/images/iconmonstr-star-5.svg"
-        alt=""
-      />
-      <img
-        class="space-obj"
-        id="moon"
-        src="resources/images/iconmonstr-weather-115.svg"
-        alt=""
-      />
-      <img
-        class="space-obj"
-        id="meteor"
-        src="resources/images/iconmonstr-weather-104-240.png"
-        alt=""
-      />
-      <img
-        class="space-obj"
-        id="earth"
-        src="resources/images/iconmonstr-globe-6-240.png"
-      />
-      <img
-        class="space-obj"
-        id="alien"
-        src="resources/images/icons8-sci-fi-96.png"
-      />
     </div>
-    <div class="flex view">
-      <h2 style="height: 400px">Hello</h2>
+    <!-- End landing section -->
+
+    <!-- Start About me section -->
+    <!-- <div class="flex view" id="a">
+      <div class="flex main-wrapper">
+        <h2>About Me</h2>
+        <div class="about-me-content-wrapper">
+          <div class="flex">
+            <div class="card">
+              <p>about me</p>
+            </div>
+            <div class="card">
+              <button></button>
+              <button></button>
+            </div>
+            <div class="card">
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="flex view"> -->
+    <div class="flex view" id="a">
+      <div class="flex about-me-main-wrapper">
+        <h2>About me</h2>
+        <div class="flex about-me-content-wrapper">
+          <div class="" id="about-me-description-wrapper">
+            <p id="about-me-description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+            </p>
+          </div>
+
+          <div class="flex border" id="about-me-btn-wrapper">
+            <button class="btn border" id="up-btn">up</button>
+            <button class="btn border" id="down-btn">down</button>
+            <img id="tracker-img" src="resources/images/three.svg" alt="" />
+          </div>
+
+          <div class="" id="profile-img-wrapper">
+            <img id="profile-img" src="resources/images/img1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="flex"></div>
+    <!-- End About me section -->
+
+
+    <div class="flex view"></div>
+
+    <div class="flex view" id="pp" style="margin-top: 400px;">
+      <div class="flex main-wrapper">
+        <h2>Projects</h2>
+        <div class="flex about-me-content-wrapper">
+          <div class="flex card">
+            <img class="project-image" src="resources/images/projectimg.jpg" alt="">
+            <h4>project title</h4>
+            <div class="project-description">
+              <p>
+                project description there is anothe this for the jave react and other differences
+              </p>
+            </div>
+
+            <div class="links-wrapper">
+              <a href=""><button class="btn border">Live Demo</button></a>
+              <a href=""><button class="btn border">github</button></a>
+            </div>
+          </div>          
+          <div class="flex card">
+            <img class="project-image" src="resources/images/projectimg.jpg" alt="">
+            <h4>project title</h4>
+            <div class="project-description">
+              <p>
+                project description there is anothe this for the jave react and other differences
+              </p>
+            </div>
+
+            <div class="links-wrapper">
+              <a href=""><button class="btn border">Live Demo</button></a>
+              <a href=""><button class="btn border">github</button></a>
+            </div>
+          </div>          
+          <div class="flex card">
+            <img class="project-image" src="resources/images/projectimg.jpg" alt="">
+            <h4>project title</h4>
+            <div class="project-description">
+              <p>
+                project description there is anothe this for the jave react and other differences
+              </p>
+            </div>
+
+            <div class="links-wrapper">
+              <a href=""><button class="btn border">Live Demo</button></a>
+              <a href=""><button class="btn border">github</button></a>
+            </div>
+          </div>          
+          <div class="flex card">
+            <img class="project-image" src="resources/images/projectimg.jpg" alt="">
+            <h4>project title</h4>
+            <div class="project-description">
+              <p>
+                project description there is anothe this for the jave react and other differences
+              </p>
+            </div>
+
+            <div class="links-wrapper">
+              <a href=""><button class="btn border">Live Demo</button></a>
+              <a href=""><button class="btn border">github</button></a>
+            </div>
+          </div>          
+          <div class="flex card">
+            <img class="project-image" src="resources/images/projectimg.jpg" alt="">
+            <h4>project title</h4>
+            <div class="project-description">
+              <p>
+                project description there is anothe this for the jave react and other differences
+              </p>
+            </div>
+
+            <div class="links-wrapper">
+              <a href=""><button class="btn border">Live Demo</button></a>
+              <a href=""><button class="btn border">github</button></a>
+            </div>
+          </div>          
+      </div>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
