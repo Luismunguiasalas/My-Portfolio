@@ -339,6 +339,10 @@ h2 {
   width: 100%;
 }
 
+#projects-wrapper button {
+  margin-bottom: 7px;
+}
+
 .card {
   align-items: center;
   flex-direction: column;
