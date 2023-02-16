@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* text-shadow: 1px 1px 2px #5e503f; */
   /* border: 0.1px solid black; */
 }
 
@@ -11,9 +12,11 @@ html {
 
 h1 {
   /* color: #00416a; */
-  /* color: #e4e5e6; */
+  color: #e4e5e6;
   /* color: #7ebc89; */
-  color: #5e503f;
+  /* text-shadow: 1px 1px 1px #5e503f; */
+  text-shadow: 2px 2px 2px #5e503f;
+  /* color: #5e503f; */
   /* color: #2a3d45; */
   /* border: 0.5px solid #00416a; */
 }
@@ -30,7 +33,7 @@ main {
   /* color: #5e503f; */
   /* color: #735751; */
   /* color: #2a3d45; */
-  color: #5e503f;
+  /* color: #5e503f; */
   /* color: #7f5539; */
   font-weight: bold;
 }
@@ -40,6 +43,7 @@ h2 {
   width: 250px;
   text-align: center;
   color: #e4e5e6;
+  text-shadow: 2px 2px 2px #5e503f;
 }
 
 .slant-view {
@@ -111,6 +115,7 @@ h2 {
   justify-content: center;
   /* justify-content: flex-start; */
   align-items: center;
+  /* margin-right: -300px; */
 }
 
 #inform-card {
@@ -119,6 +124,7 @@ h2 {
   transition-duration: 0.2s;
   width: 500px;
   height: 160px;
+  margin-right: -350px;
 }
 
 #inform-card div img {
@@ -128,7 +134,10 @@ h2 {
 
 #inform-card p {
   font-weight: bold;
-  color: #5e503f;
+  /* color: #5e503f; */
+  color: #e4e5e6;
+  /* text-shadow: 2px 2px 2px #5e503f; */
+  text-shadow: 1px 1px 1px #5e503f;
   /* background-color: rgba(228, 229, 230, 0.4); */
   /* color: #7f5539; */
   /* color: #2a3d45; */
@@ -297,7 +306,7 @@ h2 {
   /* color: #e4e5e6; */
   /* background-color: #e4e5e6; */
   /* background-color: rgba(228, 229, 230, 0.3); */
-  background-color: rgba(94, 80, 63, 0.5);
+  /* background-color: rgba(94, 80, 63, 0.5); */
   /* background-color: rgba(228, 229, 230, 0.4); */
   /* background-color: rgba(94, 80, 63, 0.1); */
 }
@@ -305,6 +314,9 @@ h2 {
 #para p {
   color: #e4e5e6;
   text-align: center;
+  /* text-shadow: 2px 2px 2px #e4e5e6; */
+  text-shadow: 1px 1px 1px #5e503f;
+  /* text-shadow: 2px 2px 2px #5e503f; */
   /* color: #5e503f; */
 }
 
@@ -328,9 +340,10 @@ h2 {
 
 .card h3 {
   color: #e4e5e6;
+  text-shadow: 2px 2px 3px #5e503f;
   /* background-color: #e4e5e6; */
   /* background-color: rgba(228, 229, 230, 0.3); */
-  background-color: rgba(94, 80, 63, 0.5);
+  /* background-color: rgba(94, 80, 63, 0.5); */
   border-radius: 12px;
   padding: 7px;
   /* color: #5e503f; */
@@ -355,7 +368,7 @@ h2 {
   /* background-color: #e4e5e6; */
   /* color: #e4e5e6; */
   /* background-color: rgba(228, 229, 230, 0.4); */
-  background-color: rgba(94, 80, 63, 0.2);
+  /* background-color: rgba(94, 80, 63, 0.2); */
   height: auto;
 }
 
@@ -367,22 +380,25 @@ h2 {
   /* 7f5539 */
   text-align: center;
   color: #e4e5e6;
+  text-shadow: 1px 1px 2px #5e503f;
+  /* text-shadow: 2px 2px 2px #5e503f; */
 }
 
 /* EDUCATION SKILLS */
 
 h4 {
   color: #e4e5e6;
+  text-shadow: 2px 2px 2px #5e503f;
   /* background-color: #e4e5e6; */
   /* background-color: rgba(228, 229, 230, 0.3); */
-  background-color: rgba(94, 80, 63, 0.5);
+  /* background-color: rgba(94, 80, 63, 0.5); */
   padding: 7px;
   border-radius: 12px;
 }
 
 .tools-card {
-  width: 100px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   flex-direction: column;
   margin-left: 26px;
   margin-right: 26px;
@@ -394,6 +410,7 @@ h4 {
 .tools-card p {
   color: #e4e5e6;
   text-align: center;
+  text-shadow: 2px 2px 3px #5e503f;
 }
 
 .tools-card img {
